@@ -3,51 +3,101 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(163, 162, 162);
 }
 .conteiner{
   width: 80%;
   height: 400px;
   margin: 15px auto 25px;
 }
+
+/* utils */
 .clearfix{
   display: table;
   content: '';
   clear: both;
 }
-{}
-/* utils */
-{}
-{}
+.title{
+  font-size: 30px;
+  font-weight: 700;
+}
+.title, .subtitle{
+  color: black;
+}
+.subtitle{
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.text-footer{
+  text-align: center;
+  font-size: 17px;
+  color: black;
+}
 {}
 {}
 /* HEADER */
 header{
   width: 100%;
-  height: 100px;
-  background-color:violet;
 }
+.logo{
+  height: 50px;
+}
+.logo, .text-logo{
+  vertical-align: middle;
+}
+.text-logo{
+  font-size: 30px;
+  font-weight: 800;
+  padding: 0 10px;
+  line-height: 50px;
+  display: inline-block;
+  height: 50px;
+  border-right: 1px solid grey;
+}
+.menu-voice{
+  display: inline-block;
+  margin-right: 10px;
+  text-align:left;
+  margin-bottom: 4px;
+  padding-top: 30px;
+  font-size: 14px;
+  cursor:pointer
+}
+
 {}
 {}
 /* JUMBOTRON */
 .jumbotron{
   width: 100%;
-  height: 100px;
-  background-color:rgb(221, 214, 123);
+  height: 350px;
   margin: 20px 0;
+  background-image: url(../img/RidefintiIConfiniDellaViaLattea.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
 }
-{}
-{}
+.area-text-jumbotron{
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+}
+.text-area-jumbotron, .title-area-jumbotron{
+  color: white;
+}
+.title-area-jumbotron{
+  font-size: 25px;
+}
 /* MAIN */
 main{
   padding-bottom: 15px;
-  background-color: rgb(16, 140, 241);
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .main-top{
   width: 100%;
-  min-height: 60px;
-  background-color:rgb(149, 198, 245);
   margin-bottom: 25px;
 }
 .navbar, .widget{
@@ -60,20 +110,42 @@ main{
   margin-right: 2%;
 }
 .navbar, .main-content, .widget{
-  background-color:rgb(149, 198, 245);
   float: left;
-  min-height: 200px;
+  min-height: 400px;
 }
-{}
+.subtitle #subtitle-main-top{
+  color: grey;
+}
+.img-main{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+.img1{
+  background-image: url(../img/mont-blanc-bilder-l.jpg);
+}
+.img2{
+  background-image: url(../img/istock-637816996.jpg);
+}
+.img3{
+  background-image: url(../img/bild-wasserfall-l.jpg);
+}
 {}
 {}
 /* FOOTER */
 footer{
   width: 100%;
-  height: 40px;
-  background-color:rgb(122, 2, 177);
+  height: 30px;
+  margin-bottom: 25px;
 }
 {}
+.text-footer::after{
+  content: "\2764";
+  color: red;
+}
 {}
 {}
 
