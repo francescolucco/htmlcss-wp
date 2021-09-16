@@ -1,0 +1,80 @@
+/* GLOBAL */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.conteiner{
+  width: 80%;
+  height: 400px;
+  margin: 15px auto 25px;
+}
+.clearfix{
+  display: table;
+  content: '';
+  clear: both;
+}
+{}
+/* utils */
+{}
+{}
+{}
+{}
+/* HEADER */
+header{
+  width: 100%;
+  height: 100px;
+  background-color:violet;
+}
+{}
+{}
+/* JUMBOTRON */
+.jumbotron{
+  width: 100%;
+  height: 100px;
+  background-color:rgb(221, 214, 123);
+  margin: 20px 0;
+}
+{}
+{}
+/* MAIN */
+main{
+  padding-bottom: 15px;
+  background-color: rgb(16, 140, 241);
+  width: 100%;
+  margin-bottom: 5px;
+}
+.main-top{
+  width: 100%;
+  min-height: 60px;
+  background-color:rgb(149, 198, 245);
+  margin-bottom: 25px;
+}
+.navbar, .widget{
+  width: 18%;
+}
+.main-content{
+  width: 60%;
+}
+.navbar,.main-content{
+  margin-right: 2%;
+}
+.navbar, .main-content, .widget{
+  background-color:rgb(149, 198, 245);
+  float: left;
+  min-height: 200px;
+}
+{}
+{}
+{}
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 40px;
+  background-color:rgb(122, 2, 177);
+}
+{}
+{}
+{}
+
+
