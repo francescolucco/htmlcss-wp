@@ -51,23 +51,24 @@ header{
   vertical-align: middle;
   padding-right: 15px;
 }
-/* .text-logo{
-  font-size: 30px;
-  font-weight: 800;
-  vertical-align: middle;
-  line-height: 50px;
-  display: inline-block;
-  height: 50px;
-  border-right: 1px solid grey;
-} */
-.menu-voice{
+ul.menu li.menu-voice a, ul.menu li.menu-voice a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
   display: inline-block;
   margin-right: 10px;
   text-align:left;
   margin-bottom: 4px;
   padding-top: 30px;
   font-size: 14px;
-  cursor:pointer
+  cursor:pointer;
+}
+ul.menu li.menu-voice{
+  list-style: none;
+  display: inline-block;
+}
+
+ul.menu li.menu-voice a:hover, ul.menu li.menu-voice a:active {
+  color: red;
 }
 
 {}
