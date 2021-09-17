@@ -37,10 +37,15 @@
 .layover{
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-{}
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* HEADER */
 header{
   width: 100%;
@@ -66,13 +71,10 @@ ul.menu li.menu-voice{
   list-style: none;
   display: inline-block;
 }
-
 ul.menu li.menu-voice a:hover, ul.menu li.menu-voice a:active {
   color: red;
 }
 
-{}
-{}
 /* JUMBOTRON */
 .jumbotron{
   width: 100%;
@@ -82,20 +84,28 @@ ul.menu li.menu-voice a:hover, ul.menu li.menu-voice a:active {
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
 }
 .area-text-jumbotron{
-  width: 50%;
-  position: absolute;
-  left: 5%;
-  bottom: 20%;
+  width: 100%;
+  height: 500px;
+  /* position: absolute; */
+  /* left: 5%;
+  bottom: 20%; */
+  float:left;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
 }
 .text-area-jumbotron, .title-area-jumbotron{
   color: white;
+  margin-left: 50px;
+  margin-right: 350px;
 }
 .title-area-jumbotron{
   font-size: 25px;
+  margin-top: 30%;
 }
+
 /* MAIN */
 main{
   padding-bottom: 15px;
@@ -107,10 +117,10 @@ main{
   margin-bottom: 25px;
 }
 .navbar, .widget{
-  width: 18%;
+  width: 21%;
 }
 .main-content{
-  width: 60%;
+  width: 54%;
 }
 .navbar,.main-content{
   margin-right: 2%;
@@ -139,19 +149,16 @@ main{
 .img3{
   background-image: url(../img/img-3.jpg);
 }
-{}
-{}
+
 /* FOOTER */
 footer{
   width: 100%;
   padding-bottom: 20px;
 }
-{}
 .text-footer::after{
   content: "\2764";
   color: red;
 }
-{}
-{}
+
 
 
